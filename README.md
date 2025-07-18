@@ -1,1 +1,2 @@
-"# student_management_system" 
+Student Management System
+This Student Management System is a web application developed using HTML, CSS, JavaScript, PHP, and MySQL. It allows administrators and teachers to manage student records, including personal details, courses, attendance, grades, and fee status. The system features secure login, responsive design, and a user-friendly interface. Data is stored in a MySQL database and dynamically managed using PHP. JavaScript is used for interactive elements and client-side validation. This project helps educational institutions digitize and streamline their operations. It is easy to install, customizable, and ideal for schools and colleges seeking a simple yet effective management solution.
