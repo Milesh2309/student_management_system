@@ -1,0 +1,177 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for forms */
+.form-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Form headings */
+.form-container h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Form labels */
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Form inputs */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus {
+    border-color: #000DFF;
+    outline: none;
+}
+
+/* Submit button */
+.form-container button {
+    background-color: #000DFF;
+    color: white;
+    border: none;
+    padding: 14px 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #4a54e1;
+}
+
+/* Error message */
+.error {
+    color: #ff4d4d;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Links */
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-container a {
+    color: #000DFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Table styles for student list */
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000DFF;
+    color: white;
+    font-weight: 700;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons for actions */
+.action-btn {
+    background-color: #000DFF;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.action-btn:hover {
+    background-color: #4a54e1;
+}
+
+/* Header styles */
+header {
+    background-color: #000DFF;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer styles */
+footer {
+    background-color: #000DFF;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .form-container {
+        margin: 40px 20px;
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
